@@ -5,7 +5,7 @@ import React from 'react'
 const Header = () => {
   return (
     <h2>
-      InfoSys InStep Intern Expense Tracker
+      Expense Tracker
     </h2>
   )
 }

@@ -9,6 +9,7 @@ import AddTransaction from './components/AddTransaction';
 import {GlobalProvider} from './context/GlobalState';
 function App() {
   return (
+    //Provider wraps all of the subtree that you want the context to be accessible to. These componenets of the subtree then need to consume the context via useContext
     <GlobalProvider>
       <Header></Header>
       <div className = "container">

@@ -32,7 +32,7 @@ export const GlobalProvider = ({children}) => {
             type: 'ADD_TRANSACTION',
             payload: transaction
         });
-    }
+    } 
 
 
 
